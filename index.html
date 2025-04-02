@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pretend Scientific Word Generator</title>
+    <script>
+        const diseaseRoots = ["splanchno", "psychro", "morpho", "gastro", "patho"];
+        const diseasePrefixes = ["erythro", "mega", "hydro", "dys", "tachy"];
+        
+        const anatomyRoots = ["dromo", "kyklo", "trapezo", "gyro", "sofa"];
+        const anatomyPrefixes = ["chloro", "micro", "macro", "xantho", "neo"];
+        
+        function getRandomElement(arr) {
+            return arr[Math.floor(Math.random() * arr.length)];
+        }
+        
+        function generateWord(type) {
+            const includePrefix = document.getElementById("includePrefix").checked;
+            let prefix = "";
+            let root = "";
+            
+            if (type === "disease") {
+                root = getRandomElement(diseaseRoots);
+                if (includePrefix) prefix = getRandomElement(diseasePrefixes);
+            } else {
+                root = getRandomElement(anatomyRoots);
+                if (includePrefix) prefix = getRandomElement(anatomyPrefixes);
+            }
+            
+            const word = prefix + root;
+            document.getElementById("wordResult").textContent = word;
+            document.getElementById("translation").textContent = "(Translation goes here)";
+            document.getElementById("pronunciation").textContent = "(Pronunciation guide goes here)";
+        }
+    </script>
+</head>
+<body>
+    <h1>Pretend Scientific Word Generator</h1>
+    <label>
+        <input type="checkbox" id="includePrefix"> Include Prefix
+    </label>
+    <br><br>
+    <button onclick="generateWord('disease')">Generate Disease</button>
+    <button onclick="generateWord('anatomy')">Generate Anatomical Structure</button>
+    
+    <h2>Result:</h2>
+    <p><strong>Word:</strong> <span id="wordResult">(Generated Word)</span></p>
+    <p><strong>Translation:</strong> <span id="translation">(Translation)</span></p>
+    <p><strong>Pronunciation:</strong> <span id="pronunciation">(Pronunciation Guide)</span></p>
+</body>
+</html>
