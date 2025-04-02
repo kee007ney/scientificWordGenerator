@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disease Root Table</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1>Disease Root Table</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Greek Word</th>
+                <th>English Translation</th>
+                <th>Pronunciation</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>cephalo</td><td>head</td><td>SEF-ah-loh</td></tr>
+            <tr><td>gastro</td><td>stomach</td><td>GAS-troh</td></tr>
+            <tr><td>cardio</td><td>heart</td><td>KAR-dee-oh</td></tr>
+            <tr><td>neuro</td><td>nerve</td><td>NOO-roh</td></tr>
+            <tr><td>dermo</td><td>skin</td><td>DER-moh</td></tr>
+            <tr><td>osteo</td><td>bone</td><td>OS-tee-oh</td></tr>
+            <tr><td>hepato</td><td>liver</td><td>HEP-ah-toh</td></tr>
+            <tr><td>pulmo</td><td>lung</td><td>PUL-moh</td></tr>
+            <tr><td>rhino</td><td>nose</td><td>RY-noh</td></tr>
+            <tr><td>opthalmo</td><td>eye</td><td>OF-thal-moh</td></tr>
+            <tr><td>psycho</td><td>mind</td><td>SY-ko</td></tr>
+            <tr><td>phobo</td><td>fear</td><td>FOH-boh</td></tr>
+            <tr><td>mania</td><td>madness</td><td>MAH-nee-ah</td></tr>
+            <tr><td>algia</td><td>pain</td><td>AL-gee-ah</td></tr>
+            <tr><td>patho</td><td>disease</td><td>PAH-thoh</td></tr>
+            <tr><td>morpho</td><td>form, shape</td><td>MOR-foh</td></tr>
+            <tr><td>splanchno</td><td>organ (viscera)</td><td>SPLANK-noh</td></tr>
+            <tr><td>thymo</td><td>emotion</td><td>THY-moh</td></tr>
+        </tbody>
+    </table>
+</body>
+</html>
