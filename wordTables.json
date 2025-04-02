@@ -1,0 +1,26 @@
+{
+  "diseaseRoot": [
+    { "greek": "kardio", "english": "heart", "pronunciation": "KAR-dee-oh" },
+    { "greek": "psycho", "english": "mind", "pronunciation": "SY-ko" },
+    { "greek": "nephro", "english": "kidney", "pronunciation": "NEF-roh" },
+    { "greek": "osteo", "english": "bone", "pronunciation": "OS-tee-oh" }
+  ],
+  "diseasePrefix": [
+    { "greek": "mega", "english": "large", "pronunciation": "MEH-gah" },
+    { "greek": "micro", "english": "small", "pronunciation": "MY-kroh" },
+    { "greek": "leuko", "english": "white", "pronunciation": "LOO-koh" },
+    { "greek": "melano", "english": "black", "pronunciation": "MEH-lah-noh" }
+  ],
+  "anatomicalRoot": [
+    { "greek": "domo", "english": "house", "pronunciation": "DOH-moh" },
+    { "greek": "kyklo", "english": "circle", "pronunciation": "KY-kloh" },
+    { "greek": "trapezo", "english": "trapezoid", "pronunciation": "TRAH-peh-zoh" },
+    { "greek": "stegano", "english": "roof", "pronunciation": "STEG-ah-noh" }
+  ],
+  "anatomicalPrefix": [
+    { "greek": "erythro", "english": "red", "pronunciation": "EH-rith-roh" },
+    { "greek": "chloro", "english": "green", "pronunciation": "KLOH-roh" },
+    { "greek": "dolicho", "english": "long", "pronunciation": "DOH-lee-khoh" },
+    { "greek": "brachy", "english": "short", "pronunciation": "BRAH-kee" }
+  ]
+}
